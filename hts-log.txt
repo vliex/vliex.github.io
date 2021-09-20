@@ -1,0 +1,15 @@
+HTTrack3.49-2+htsswf+htsjava launched on Mon, 20 Sep 2021 18:18:51 at http://slimhamdi.net/moscow/demos/index-dark.html +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar
+(winhttrack -qwC2%Ps2u1%s%uN0%I0p3DaK0H0%kf2A25000%f#f -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2014], %s -->" -%l "en, *" http://slimhamdi.net/moscow/demos/index-dark.html -O1 "C:\Users\ADMIN\Desktop\themech\gbgbgb" +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+18:18:52	Error: 	"Internal Server Error" (500) after 2 retries at link slimhamdi.net/robots.txt (from primary/primary)
+18:30:33	Warning: 	file not stored in cache due to bogus state (broken size, expected 20009631 got 14918466): slimhamdi.net/moscow/demos/images/projects/video/video.mp4
+18:30:33	Warning: 	Retry after error -4 (Incorrect length (14918466 Bytes, 20009631 expected)) at link slimhamdi.net/moscow/demos/images/projects/video/video.mp4 (from slimhamdi.net/moscow/demos/index-dark.html)
+18:30:33	Warning: 	File not parsed, looks like binary: slimhamdi.net/moscow/demos/fonts/fontawesome-webfont.woff2?v=4.7.0
+
+HTTrack Website Copier/3.49-2 mirror complete in 15 minutes 9 seconds : 67 links scanned, 65 files written (22793752 bytes overall) [21998681 bytes received at 24200 bytes/sec], 1104234 bytes transferred using HTTP compression in 27 files, ratio 25%
+(1 errors, 3 warnings, 0 messages)
